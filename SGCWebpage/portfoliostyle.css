@@ -1,0 +1,102 @@
+/* Style sheet for Scholars SGC web page */
+
+/* General instructions for font, color, and background image */
+body {
+	font-family: Ariel, Futura, Verdana;
+	color: #344152;
+	margin: 15px;
+	background: #92BCC9; url(//www.geol.umd.edu/sgc/sharedimages/delearthwp.jpg) repeat top right;
+}
+
+/* General selector values */
+
+/* Paragraph break height */
+p {
+	line-height: 1.4em;
+    max-width: 600px;
+    background-color: #ADC0CB;
+}
+
+/* Heading fonts and formats */
+h2 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 2em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+	font-weight: plain;
+}
+
+h6 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 0.75em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+	font-weight: bold;
+    font-family: Georgia, Futura, Verdana;
+}
+
+ul {
+    list-style-image: url(webglobe_%20copy.gif);
+}
+
+/* Margins and alignment for images in the content division */					
+#content img {
+			padding: 1px;
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+a {
+	text-decoration: none;
+}
+
+/* Colors for linked text, before and after being clicked */			
+a:link {
+	color: #1C86EE;
+}
+
+a:visited {
+	color: #B368CD;
+}
+
+
+/* Page Layout */
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+#content {
+	margin-top: 10px; 
+}
+
+/* Layout for divisions containing images and their captions */
+#picture {
+	padding: 1px;
+	float: right;
+	text-align: center;
+	font-size: 8pt;
+    font-family: Georgia, Futura, Verdana;
+	margin: 0 100px 1em 1em;
+    font-weight: bold;
+}
+/* Layout for alignment of footer */
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    font-family: Georgia, Futura, Verdana;
+}
+
+
+#footer img {
+	padding: 10px;
+}
