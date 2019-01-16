@@ -1,0 +1,123 @@
+/* Style sheet for Scholars SGC web page */
+
+body {
+	font-family: Ariel, Futura, Verdana;
+	color: #344152;
+	margin: 10px;
+	background: white url(sharedimages/delearthwp.jpg) repeat top right;
+}
+
+/* General selector values */
+
+
+p {
+	line-height: 1.4em;
+}
+
+h1 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 3em;
+	margin: 0;
+	padding: 0.25em;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 2em;
+	margin: 0;
+	padding: 0.1em;
+	padding-left: 1em;
+	text-align: center;
+	font-weight: plain;
+}
+
+h3 {
+	font-family: Skia, Futura, Verdana, Ariel;
+	color: #344152;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+img {
+	border-width: 0;
+	border-color: black;
+}
+					
+#content img {
+			padding: 1px;
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+a {
+	text-decoration: none;
+}
+
+strong {
+	font-style: italic;
+}
+
+
+
+a:link {
+	color: #1C86EE;
+}
+
+a:visited {
+	color: #104E8B;
+}
+
+
+/* Layout */
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 10;
+}
+
+#navigation {
+	position: absolute;
+	margin: 260px 0 0 0px; 
+	padding: 5px;
+	width: 250px;
+	top: 0;
+	left: 10;
+	border-right: 10px solid #104E8B;
+}
+
+#navigation img {
+	float:left;
+	padding: 5px;
+}
+
+
+#content {
+	margin: 250 0 0 0; 
+}
+
+#content img {
+	padding: 5px;
+}
+
+#picture {
+	padding: 1px;
+	float: right;
+	text-align: center;
+	font-size: 8pt;
+	margin: 0 0 1em 1em;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+
+#footer img {
+	padding: 10px;
+}
