@@ -3,6 +3,8 @@ Source code to my personal webpage hosted on the UMD GRACE Servers
 
 Link to live broadcast: https://www.terpconnect.umd.edu/~gorczyca/
 
+
+
 Jonathan_Gorczyca_files: This directory contains all images used in the main webpage (portfolio.html). It also includes the Practicum Poster.
 
 SGC Three Semester Review_files: This directory contains all the images used in the Three Semester Review webpage.
@@ -12,6 +14,8 @@ portfolio.html: This is the html file to the main webpage.
 three_semester_review.htm: This is the html file to the three semester review page.
 
 portfoliostyle.css: This is the style sheet I used for all my pages.
+
+
 
 Brief Summary:
 
